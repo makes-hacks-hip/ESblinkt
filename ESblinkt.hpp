@@ -7,7 +7,7 @@
 struct RgbColor color_wheel(uint8_t pos);
 void fill_rainbow(uint8_t offset, struct strip leds);
 void fill_solid(struct RgbColor color, struct strip leds);
-void rainbow(struct strip leds);
+void rainbow(uint32_t rainbow_speed, struct strip leds);
 void solid(struct RgbColor color, struct strip leds);
 void three_sided(struct three_sided three_sided_config, struct strip leds);
 
